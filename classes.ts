@@ -3,6 +3,12 @@ class Employee {
     private age;
     private salary;
 
+    // other fields
+    // protected
+    // public
+    // no keyword => public
+    // readonly => same as final
+
     constructor(name: string, age: number, salary: number){
         this.name = name;
         this.age = age;
