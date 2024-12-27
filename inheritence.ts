@@ -2,6 +2,7 @@ class Animal {
     protected name: string;
     protected color: string;
 
+    // constructor
     constructor(name: string, color: string) {
         this.name = name;
         this.color = color;
